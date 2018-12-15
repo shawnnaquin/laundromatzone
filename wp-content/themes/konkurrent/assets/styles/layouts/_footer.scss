@@ -1,0 +1,58 @@
+/*#footer-wrapper {
+    background-image:url('http://themes.playnethemes.com/landy/wp-content/uploads/2014/12/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   position: relative;
+}*/
+
+/*#mailchimp-container {
+    text-align: center;
+}*/
+
+/*#copyrights-section {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 25px 25px 10px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}*/
+
+#copyrights-section {
+    display: block;
+    margin: 0;
+    padding: 25px 25px 10px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+#footer-wrapper {
+  background-color: #000;
+}
+
+#mailchimp-container {
+    text-align: center;
+}
+
+#copyrights-section {
+    padding: 25px 25px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+#copyrights-section a {
+    color: $link-hover-color;
+}

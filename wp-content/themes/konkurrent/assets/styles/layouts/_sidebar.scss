@@ -1,0 +1,133 @@
+aside.sidebar {
+    width: 100%;
+    padding: 0px;
+}
+
+aside.sidebar select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid $link-hover-color;
+    background-color: transparent;
+    outline: none;
+}
+
+aside.sidebar .tagcloud a {
+    display: inline-block;
+    border: 1px solid $link-hover-color;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+aside.sidebar .tagcloud a:hover {
+    background-color: $link-hover-color;
+    border-color: #fff;
+    color: #fff;
+}
+
+#wp-calendar {
+    width: 100%;
+}
+
+#wp-calendar tfoot tr td:last-child {
+    text-align: right;
+}
+
+#wp-calendar caption{
+    text-align:center;
+}
+
+aside.sidebar section {
+  font-size: 14px;
+  padding: 25px;
+  background: #f5f8fa;
+  margin-bottom: 40px;
+}
+
+aside.sidebar input.search-submit {
+    display: none;
+}
+
+aside.sidebar input.search-field {
+    text-transform: uppercase;
+    background: none;
+    border: 2px solid #81b3ab;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+     border-radius: 0px; 
+    width: 100%;
+}
+
+aside.sidebar input.search-field:focus {
+    border-color: #81b3ab;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
+
+aside.sidebar h3 {
+  text-align: left;
+  display: block;
+  font-size: 12px;
+  color: #4d515c;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  text-decoration: none;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sidebar ul li {
+    margin-bottom: 12px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.sidebar ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.sidebar ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #a4a9b5;
+  -webkit-transition: .07s ease-in;
+  -moz-transition: .07s ease-in;
+  transition: .07s ease-in;
+}
+
+.sidebar ul li:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e258";
+    position: absolute;
+    font-size: 8px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .widget_nav_menu ul li:before {
+    display: none;
+}
+
+.sidebar ul li a:hover, .sidebar ul li:hover {
+  color: $link-hover-color;
+}

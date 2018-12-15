@@ -1,0 +1,195 @@
+.entry-meta .inner-container {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.entry-meta .inner-container .glyphicon {
+  margin-right: 5px;
+  color: #00cec0;
+}
+
+.entry-meta .inner-container a {
+    color: #fff;
+}
+
+.entry-meta .inner-container a:hover {
+    color: $link-hover-color;
+}
+
+
+#comments {
+    border-top: 1px dotted $link-color;
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+#comments h2 {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0;
+}
+
+#comments h2 .glyphicon {
+    margin-right: 15px;
+    color: #888;
+}
+
+#comments .comment-body {
+    background-color: $section-bg;
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid $link-hover-color;
+}
+
+#comments .comment-meta {
+    padding-bottom: 20px;
+    border-bottom: 1px solid $link-color;
+    margin-bottom: 20px;
+}
+
+#comments .comment-body .comment-author b.fn {
+    text-transform: capitalize;
+}
+
+#comments .comment-body .comment-author img {
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+#comments .comment-meta .edit-link {
+    float: right;
+}
+
+#comments ol.comment-list {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px dotted $link-color;
+}
+
+#comments #respond {
+    float: left;
+    width: 100%;
+}
+
+#comments #respond h3#reply-title {
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.comment-form .form-submit {
+    margin-top: 25px;
+}
+
+.comment-form .form-submit #submit {
+    border-radius: 0px;
+    background-color: $link-hover-color;
+    font-size: 14px;
+    border-color: $link-hover-color;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.comment-form .form-submit #submit:hover {
+    background-color: #fff;
+    color: $link-hover-color;
+}
+
+.comment-form label {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.comment-form label .required {
+    color: red;
+}
+
+.comment-form input[type=email], .comment-form input[type=text], .comment-form input[type=url], .comment-form textarea {
+    height: auto;
+    border: 1px solid $link-color;
+    padding: 10px;
+    border-radius: 0;
+    width: 100%;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
+
+.comment-form input[type=email]:focus, .comment-form input[type=text]:focus, .comment-form input[type=url]:focus, .comment-form textarea:focus {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+    border-color: $link-hover-color;
+}
+
+#tags-container {
+    margin-top: 25px;
+}
+
+#tags-container span {
+    margin-right: 10px;
+}
+
+#tags-container .glyphicon {
+    color: $link-hover-color;
+}
+
+.gallery {
+  @include make-row();
+}
+.gallery-columns-1 .gallery-item {
+    @include make-md-column(2);
+  @include make-xs-column(1);
+}
+.gallery-columns-2 .gallery-item {
+    @include make-md-column(3);
+  @include make-xs-column(3);
+}
+.gallery-columns-3 .gallery-item {
+  @include make-md-column(4);
+  @include make-xs-column(2);
+}
+.gallery-columns-4 .gallery-item {
+  @include make-md-column(5);
+  @include make-xs-column(2);
+}
+.gallery-columns-5 .gallery-item {
+  @include make-md-column(6);
+  @include make-xs-column(2);
+}
+.gallery-columns-6 .gallery-item {
+  @include make-sm-column(7);
+  @include make-xs-column(2);
+}
+.gallery-columns-7 .gallery-item {
+  @include make-sm-column(8);
+  @include make-xs-column(2);
+}
+.gallery-columns-8 .gallery-item {
+  @include make-sm-column(9);
+  @include make-xs-column(2);
+}
+.gallery-columns-9 .gallery-item {
+  @include make-sm-column(10);
+  @include make-xs-column(2);
+}
+
+.gallery-item .landscape {
+  @extend .thumbnail;
+}
+.gallery-caption {
+  display: none;
+}

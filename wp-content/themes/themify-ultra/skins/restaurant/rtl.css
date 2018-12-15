@@ -1,0 +1,13 @@
+.module-service-menu .tb-highlight-text {
+    left: auto;
+    right: 0;
+}
+
+.footer-block .section-col+.footer-text .one {
+    float: right;
+    text-align: right;
+}
+.footer-block .section-col+.footer-text .two {
+    float: left;
+    text-align: left;
+}

@@ -1,0 +1,124 @@
+/* Themify Customize Styling */
+body {
+	/*display: none;*/
+}
+
+h1 {
+	font-family: Open Sans;
+	font-weight: bold;
+	font-size: 80px;
+}
+
+h2 {
+	font-family: Open Sans;
+	font-weight: normal;
+	color: #4d4d4d;
+}
+
+#headerwrap {
+	background: none;
+	background-color: #3b3b3b;
+}
+
+#header {
+	background: none;
+	background-color: #948f8f;
+	font-weight: 100;
+	font-size: 9px;
+	line-height: 1px;
+	text-transform: uppercase;
+}
+
+body[class*="themify"] #site-logo img {
+	width: 40px;
+	height: 40px;
+}
+
+#site-logo {
+	position: relative;
+	top: -13px;
+	right: 11px;
+	left: -22px;
+}
+
+#site-description {
+	line-height: 50%;
+}
+
+#main-nav {
+	position: relative;
+	height: 3px;
+	padding: -44px;
+}
+
+#main-nav a {
+	font-family: Open Sans;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+#main-nav a,
+#main-nav > li > a,
+.transparent-header #main-nav a {
+	color: #ffffff;
+}
+
+#main-nav-wrap #main-nav a:hover,
+#main-nav-wrap #main-nav > li > a:hover {
+	color: #e6e6e6;
+}
+
+#main-nav-wrap #main-nav .current_page_item > a,
+#main-nav .current-menu-item > a,
+#main-nav > .current_page_item > a,
+#main-nav > .current-menu-item > a {
+	color: #ffffff;
+}
+
+#main-nav-wrap #main-nav .current_page_item a:hover,
+#main-nav .current-menu-item a:hover {
+	color: #e6e6e6;
+}
+
+#footerwrap {
+	background: none;
+	background-color: #292929;
+}
+
+#footer {
+	color: #ffffff;
+}
+
+#footer a {
+	color: #ffffff;
+}
+
+@media screen and (max-width:1280px) {
+
+	/* Themify Customize Styling */
+	body[class*="themify"] #site-logo img {
+		width: 40px;
+		height: 40px;
+	}
+
+}
+
+@media screen and (max-width:768px) {
+
+	/* Themify Customize Styling */
+	body[class*="themify"] #site-logo img {
+		width: 40px;
+		height: 40px;
+	}
+
+}
+
+@media screen and (max-width:680px) {
+
+	/* Themify Customize Styling */
+	body[class*="themify"] #site-logo img {
+		width: 40px;
+		height: 40px;
+	}
+
+}

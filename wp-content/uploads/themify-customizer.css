@@ -1,6 +1,11 @@
 /* Themify Customize Styling */
 body {
 	/*display: none;*/
+	background-color: #292929;
+}
+
+#body {
+	background-color: white;
 }
 
 h1 {
@@ -15,30 +20,55 @@ h2 {
 	color: #4d4d4d;
 }
 
+.text-363-0-0-0.module-text h1,
+.text-363-0-0-1.module-text p {
+	text-shadow: 2px 2px 100px black;
+	color: white!important;
+}
+
 #headerwrap {
-	background: none;
 	background-color: #3b3b3b;
+	/*transition: background-color 300ms ease;*/
+	/*
+		background-color: #948f8f;
+		background: none;
+	*/
+}
+
+#headerwrap.fixed-header {
+	background-color: #292929;
+	transition: background-color 300ms ease;
+	/*background-color: #5F3F3F;*/
 }
 
 #header {
 	background: none;
-	background-color: #948f8f;
 	font-weight: 100;
+	text-transform: uppercase;
+	height:55px;
+/*
+	background-color: #948f8f;
 	font-size: 9px;
 	line-height: 1px;
-	text-transform: uppercase;
+*/
+
 }
 
-body[class*="themify"] #site-logo img {
-	width: 40px;
-	height: 40px;
-}
+/*
+	body[class*="themify"] #site-logo img {
+		width: 40px;
+		height: 40px;
+	}
+*/
 
 #site-logo {
 	position: relative;
+/*
+
 	top: -13px;
 	right: 11px;
 	left: -22px;
+*/
 }
 
 #site-description {
@@ -47,14 +77,20 @@ body[class*="themify"] #site-logo img {
 
 #main-nav {
 	position: relative;
+	height:55px;
+/*
 	height: 3px;
 	padding: -44px;
+*/
 }
 
 #main-nav a {
 	font-family: Open Sans;
 	font-weight: 300;
 	font-size: 16px;
+	padding: 8px;
+	height: calc( 55px - 16px );
+	line-height: calc( 55px - 16px );
 }
 
 #main-nav a,
@@ -93,32 +129,50 @@ body[class*="themify"] #site-logo img {
 	color: #ffffff;
 }
 
-@media screen and (max-width:1280px) {
+#site-logo {
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+}
 
-	/* Themify Customize Styling */
+#site-logo a {
+	display:inline-block;
+	position:relative;
+	width:50px;
+	height:50px;
+	transform: translateY(2px);
+}
+
+#site-logo a img {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+
+/*
+@media screen and (max-width:1280px) {
 	body[class*="themify"] #site-logo img {
 		width: 40px;
 		height: 40px;
 	}
-
 }
 
 @media screen and (max-width:768px) {
-
-	/* Themify Customize Styling */
 	body[class*="themify"] #site-logo img {
 		width: 40px;
 		height: 40px;
 	}
-
 }
 
 @media screen and (max-width:680px) {
 
-	/* Themify Customize Styling */
 	body[class*="themify"] #site-logo img {
 		width: 40px;
 		height: 40px;
 	}
 
 }
+*/

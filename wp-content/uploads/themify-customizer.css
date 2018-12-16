@@ -18,6 +18,11 @@ h2 {
 	font-family: Open Sans;
 	font-weight: normal;
 	color: #4d4d4d;
+	margin-top:100px!important;
+}
+
+.module_row_0 {
+	margin-bottom:100px;
 }
 
 .text-363-0-0-0.module-text h1,
@@ -114,6 +119,21 @@ h2 {
 #main-nav-wrap #main-nav .current_page_item a:hover,
 #main-nav .current-menu-item a:hover {
 	color: #e6e6e6;
+}
+
+.module-box-content {
+     padding: 0;
+     padding-top:0;
+     padding-right:0;
+     padding-bottom:0;
+     padding-left:0;
+}
+.gallery {
+	margin-bottom:0;
+}
+
+.module-box {
+	margin-bottom: 0;
 }
 
 #footerwrap {

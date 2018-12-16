@@ -1,0 +1,101 @@
+/* Themify Customize Styling */
+
+body {
+	/*display: none;*/
+	background-color: #292929;
+}
+
+#body {
+	background-color: white;
+}
+
+h2 {
+	margin-top:100px!important;
+}
+
+.module_row_0 {
+	margin-bottom:100px;
+}
+
+.text-363-0-0-0.module-text h1,
+.text-363-0-0-1.module-text p {
+	text-shadow: 2px 2px 100px black;
+	color: white!important;
+}
+
+#headerwrap {
+	background-color: #3b3b3b;
+}
+
+#headerwrap.fixed-header {
+	background-color: #292929;
+	transition: background-color 300ms ease;
+}
+
+#header {
+	background: none;
+	font-weight: 100;
+	text-transform: uppercase;
+	height:55px;
+
+}
+
+#site-logo {
+	position: relative;
+}
+
+#site-description {
+	line-height: 50%;
+}
+
+#main-nav {
+	position: relative;
+	height:55px;
+}
+
+#main-nav a {
+	font-family: Open Sans;
+	font-weight: 300;
+	font-size: 16px;
+	padding: 8px;
+	height: calc( 55px - 16px );
+	line-height: calc( 55px - 16px );
+}
+
+.module-box-content {
+     padding: 0;
+     padding-top:0;
+     padding-right:0;
+     padding-bottom:0;
+     padding-left:0;
+}
+.gallery {
+	margin-bottom:0;
+}
+
+.module-box {
+	margin-bottom: 0;
+}
+
+#site-logo {
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+}
+
+#site-logo a {
+	display:inline-block;
+	position:relative;
+	width:50px;
+	height:50px;
+	transform: translateY(2px);
+}
+
+#site-logo a img {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}

@@ -1,5 +1,5 @@
 /*
-Plugin Name: Custom CSS Time 2019
+Plugin Name: Laundromatzon Custom CSS 2019
 Plugin URI: wordpress codex
 Description: widget
 Author: wordpress codex

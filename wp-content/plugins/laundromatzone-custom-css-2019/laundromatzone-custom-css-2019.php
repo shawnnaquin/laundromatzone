@@ -9,7 +9,7 @@ Author URI: https://wordpress.com
 */
 
 add_action( 'wp_enqueue_scripts', function() {
-	wp_enqueue_style( 'customizecss', './custom-css.css' );
+	wp_enqueue_style( 'WPFA-Plugin-Style', plugin_dir_url( __FILE__ ) . 'custom-css.css' );
 }, 1000 );
 
 ?>
